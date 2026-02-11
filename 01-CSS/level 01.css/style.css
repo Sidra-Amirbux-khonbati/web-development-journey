@@ -1,0 +1,51 @@
+
+h1{
+    color: red;
+}
+#heading2{
+    color: #d71111;
+}
+.article{
+    color: rgb(60, 26, 199);
+}
+#div1 {
+    color: darkgoldenrod;
+
+}
+#first, #second{
+    color: rgb(231, 95, 27);
+    background-color: rgb(179, 246, 24);
+}
+button{
+    color: rgb(8, 21, 22);
+    background-color: rgb(21, 214, 231);
+}
+
+.box{
+    margin: 1%;
+    padding: 1%;
+    height: 40px;
+    width: 40px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9DO9oyJqhfw-CsAM403XTeNvhQr9k7NFK8w&s);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#box5{
+    background-color: rgb(20, 236, 251);
+    visibility: hidden;
+}
+#box6{
+    background-color: rgb(230, 21, 230);
+}
