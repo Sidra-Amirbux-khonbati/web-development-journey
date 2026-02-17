@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+}
+header{
+    background-color: lightseagreen;
+    height: 50px;
+}
+#div1{
+    background-color: green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: darkkhaki;
+    margin: 5px;
+    display: inline-block;
+}
+#container{
+    border: 3px solid;
+    margin: 5px;
+}
+#box4{
+    position: fixed;
+    right: 5px;
+}
+#box2{
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+}
+.boxs{
+    height: 100px;
+    width: 100px;
+    background-color: darkkhaki;
+    margin: 5px;
+}
+footer{
+    background-color: aqua;
+    position: fixed;
+    bottom: 0px;
+}
