@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 5px solid black;
+    margin: 20px;
+}
+#div1{
+    position: absolute;
+    z-index: 2;
+}
+#div2{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    z-index: 1;
+}
+#div3{
+    position: absolute;
+    top: 20px;
+    
+}
+#div4{
+    position: fixed;
+    right: 20px;
+}
