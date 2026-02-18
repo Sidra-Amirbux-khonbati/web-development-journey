@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#heading{
+    text-align: center;
+}
+#container{
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    display: inline-block;
+}
+#box1{
+    background-color: orange;
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: purple;
+}
+#box4{
+    background-color: green;
+}
+#container1{
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+#container2{
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+#container3{
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.wrap{
+    margin: 5px;
+    padding: 5px;
+    height: 150px;
+    width: 250px;
+    border: 3px solid black;
+}
+#container4{
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#container5{
+    background-color: darkgrey;
+    height: 500px;
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#container6{
+    background-color: darkgrey;
+    height: 500px;
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+#box5{
+    background-color: chartreuse;
+    align-self: flex-end;
+}
+.boxs{
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+}
+#container7{
+    height: 300px;
+    width: 600px;
+    background-color: darkgrey;
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+#box6{
+    background-color: cornflowerblue;
+    flex-shrink: 4;
+}
